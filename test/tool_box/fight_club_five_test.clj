@@ -52,3 +52,9 @@
   (fc5/process
     (io/file "resources/fc5/Sources/MonsterManual/items-mm.xml")
     (io/file "resources/items-mm.json")))
+
+
+(deftest run-fight-club-five-process-srd
+  (fc5/process
+    (io/file "resources/fc5/Sources/SystemReferenceDocument/all-srd.xml")
+    (io/file "resources/all-srd.json")))

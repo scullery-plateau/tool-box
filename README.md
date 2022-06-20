@@ -1,6 +1,7 @@
 # tool-box
 
-A Clojure library designed to ... well, that part is up to you.
+Tool-box is a toolkit of command-line tools for the data behind
+scullery-plateau's github page site.
 
 ## Usage
 

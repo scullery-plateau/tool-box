@@ -5,7 +5,8 @@
             [clojure.zip :as zip]
             [clojure.string :as s]
             [clojure.string :as str]
-            [clojure.pprint :as pp])
+            [clojure.pprint :as pp]
+            [clojure.set :as set])
   (:import (java.io ByteArrayInputStream)
            (java.nio.charset StandardCharsets)))
 
@@ -13,7 +14,111 @@
 
 (def dest (io/file "resources/compendium.json"))
 
-(defn node->object [{:keys [attrs content] :as node} & {:keys [exclude]}]
+(def item-types
+  {:$ "Currency"
+   :A "Ammunition"
+   :G "Adventuring Gear"
+   :LA "Light Armor"
+   :HA "Heavy Armor"
+   :M "Melee Weapon"
+   :MA "Magic Armor"
+   :P "Potion"
+   :R "Ranged Weapon"
+   :RD "Rod"
+   :RG "Ring"
+   :S "Shield"
+   :SC "Scroll"
+   :ST "Staff"
+   :W "Wonderous Item"
+   :WD "Wand"})
+
+(def schools-of-magic
+  {:A :Abjuration
+   :C :Conjuration
+   :D :Divination
+   :EN :Enchantment
+   :EV :Evocation
+   :I :Illusion
+   :N :Necromancy
+   :T :Transmutation})
+
+(def sizes
+  {:G :Gargantuan
+   :H :Huge
+   :L :Large
+   :M :Medium
+   :S :Small
+   :T :Tiny})
+
+(def item-properties
+  {:A "Ammunition"
+   :F "Finesse"
+   :H "Heavy"
+   :L "Light"
+   :LD "Loading"
+   :M "Martial"
+   :R "Reach"
+   :S "Special"
+   :T "Thrown"
+   :2H "Two-Handed"
+   :V "Versatile"})
+
+(def detail-regex
+  #"^(\(((\w+[,]?\s)*\w+)\)\,\s)?((\w+\s)*\w+)( \(requires attunement(( outdoors at night)|( by a ((\w+(\,(\sor)?\s\w+)*)|(creature of (\w+) alignment))))?\))?$")
+
+(def detail-fields
+  {:detail 2
+   :rarity 4
+   :requires-attunement? 6
+   :attunement-detail 7
+   :attunement-by 10})
+
+(defn full-trim [my-str]
+  (str/trim (str/replace my-str #"\s+" " ")))
+
+(defn parse-detail [{full-detail :detail :as obj}]
+  (if (nil? full-detail)
+    obj
+    (let [results (re-find detail-regex full-detail)
+          {:keys [detail rarity requires-attunement? attunement-detail attunement-by] :as detail-props} (reduce-kv #(assoc %1 %2 (get results %3)) {} detail-fields)
+          rarity (or rarity full-detail)
+          [rarity requires-attunement? attunement-detail attunement-by] (if (str/includes? rarity " (requires attunement")
+                                                                          (let [[r raq?] (str/split rarity #" \(requires attunement")
+                                                                                ad (when (< 1 (count raq?)) raq?)
+                                                                                ab (second (str/split ad #" by a "))]
+                                                                            [r raq? ad ab])
+                                                                          [rarity requires-attunement? attunement-detail attunement-by])
+          requires-attunement? (when (not (nil? requires-attunement?)) true)
+          attunement-detail (when attunement-detail (str/trim attunement-detail))
+          attunement-by (vec (remove empty? (str/split (str/replace (or attunement-by "") #"or\s" "") #",\s")))
+          attunement-by (when (not (empty? attunement-by)) attunement-by)
+          attunement (or attunement-by attunement-detail requires-attunement?)
+          new-props (merge
+                      (if (nil? detail) {} {:detail detail})
+                      (if (nil? rarity) {} {:rarity rarity})
+                      (if (nil? attunement) {} {:attunement attunement}))]
+      (merge (dissoc obj :detail) new-props))))
+
+(defn un-abbreviate-enum [field enum-map]
+  (fn [obj]
+    (let [k (keyword (get obj field))]
+      (if (nil? k)
+        obj
+        (assoc obj field (get enum-map k k))))))
+
+(defn un-abbreviate-enum-set [field delim enum-map]
+  (fn [obj]
+    (let [property (get obj field)]
+      (if (nil? property)
+        obj
+        (let [ks (mapv keyword (str/split property delim))]
+          (assoc obj field (reduce #(assoc %1 (get enum-map %2) true) {} ks)))))))
+
+(defn to-boolean [field true-value]
+  (fn [obj]
+    (assoc obj field (= true-value (get obj field)))))
+
+(defn node->object [{:keys [attrs content]} & {:keys [exclude]}]
   (let [attrs (or attrs {})
         content (or content [])
         content (if (vector? content) content [content])
@@ -55,7 +160,9 @@
       (dissoc (assoc obj new-key values) old-key))))
 
 (defn parse-ability [delim obj]
-  (parse-split-list obj delim :ability :abilities))
+  (let [{:keys [abilities] :as obj} (parse-split-list obj delim :ability :abilities)
+        abilities (into (sorted-map) (mapv #(str/split % #"\s") abilities))]
+    (assoc obj :abilities abilities)))
 
 (defn parse-proficiency [delim obj]
   (parse-split-list obj delim :proficiency :proficiencies))
@@ -72,13 +179,13 @@
   (if (empty? (text-key obj))
     obj
     (let [text (text-key obj)
-          text (if (vector? text) text [text])
-          text (reduce #(concat %1 (str/split %2 #"\n")) [] text)
-          text (remove empty? text)
+          text (->> (if (vector? text) text [text])
+                    (reduce #(concat %1 (str/split %2 #"\n")) [])
+                    (remove empty?))
           find-source #(str/starts-with? % "Source: ")
           sources (map #(str/replace % "Source: " "") (filter find-source text))
           sources (reduce #(concat %1 (str/split %2 #", ")) [] sources)
-          text (remove find-source text)]
+          text (full-trim (str/join " " (remove find-source text)))]
       (merge
         (if (empty? text)
           (dissoc obj text-key)
@@ -90,9 +197,10 @@
 (def parse-desc-and-source (partial parse-source :description))
 
 (defn reduce-to-text [obj]
-  (if (= (set (keys obj)) #{:name :text})
-    (:text obj)
-    (dissoc obj :name)))
+  (let [obj (update obj :text full-trim)]
+    (if (= (set (keys obj)) #{:name :text})
+      (:text obj)
+      (dissoc obj :name))))
 
 (def reduce-trait (comp (partial parse-proficiency #", ") reduce-to-text))
 
@@ -131,18 +239,45 @@
       obj
       (apply dissoc (assoc obj prop group) fields))))
 
+(def parsers
+  {:float #(Double/parseDouble %)
+   :int #(Long/parseLong %)})
+
+(defn parse-numbers [& {:as fields}]
+  (fn [obj]
+    (let [key-set (set/intersection (set (keys fields)) (set (keys obj)))]
+      (reduce
+        #(update %1 %2 (get parsers %2 identity))
+        obj key-set))))
+
 (def choices
-  {:item [:items :name (comp parse-text-and-source parse-modifier)]
-   :race [:races :name (comp parse-modifier (partial parse-ability #", ") (partial parse-proficiency #", ") trait->traits)]
+  {:item [:items :name (comp
+                         parse-text-and-source
+                         parse-modifier
+                         parse-detail
+                         (un-abbreviate-enum :type item-types)
+                         (un-abbreviate-enum-set :property #"," item-properties)
+                         (to-boolean :magic "YES")
+                         (parse-numbers :weight :float :ac :int :strength :int))]
+   :race [:races :name (comp
+                         parse-modifier
+                         (un-abbreviate-enum :size sizes)
+                         (partial parse-ability #", ")
+                         (partial parse-proficiency #", ")
+                         trait->traits)]
    :class [:classes :name identity]
    :feat [:feats :name (comp parse-text-and-source (partial parse-proficiency #", ") parse-modifier)]
    :background [:background :name (comp (partial parse-proficiency #", ") trait->traits)]
-   :spell [:spells :name parse-text-and-source]
+   :spell [:spells :name (comp
+                           parse-text-and-source
+                           (un-abbreviate-enum :school schools-of-magic)
+                           )]
    :monster [:monsters :name (comp
                                parse-desc-and-source
                                trait->traits
                                action->actions
                                reaction->reactions
+                               (un-abbreviate-enum :size sizes)
                                (partial pull-fields ability-scores :abilityScores)
                                (partial pull-fields stats :stats)
                                (partial pull-fields bonuses :bonuses)
@@ -161,8 +296,6 @@
     (reduce #(let [choice (get-choices (:tag %2))] (choice %2 %1)) compendium content)))
 
 (defn- pre-de-code-xml-text [xml-text]
-  ;(pp/pprint (reduce #(assoc %1 %2 (char %2)) {} (into (sorted-set) (filter #(< 127 %) (map int xml-text)))))
-  ;(pp/pprint (first (str/split-lines xml-text)))
   (let [outval (str/escape
                  xml-text
                  {"\r" ""
@@ -178,8 +311,6 @@
                   (char 20) ""
                   (char 13) ""
                   (char 19) ""})]
-    ;(pp/pprint (first (str/split-lines outval)))
-    ;(pp/pprint (second (str/split-lines outval)))
     outval))
 
 (defn- unzip-xml [xml-file]
@@ -199,7 +330,6 @@
 
 (defn process [source dest]
   (let [json (parse-folder source {})]
-    ;(pp/pprint json)
     (spit
       dest
       (json/generate-string
