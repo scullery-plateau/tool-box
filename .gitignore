@@ -13,3 +13,4 @@ pom.xml.asc
 .idea
 .clj-kondo/**
 resources/fc5json/*
+.lsp/**
