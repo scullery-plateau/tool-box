@@ -5,5 +5,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/tools.cli "1.0.206"]
-                 [cheshire "5.10.2"]]
+                 [clj-http "3.13.0"]
+                 [cheshire "5.10.2"]
+                 [hiccup "2.0.0-RC3"]]
   :repl-options {:init-ns tool-box.core})
