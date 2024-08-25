@@ -1,0 +1,1949 @@
+{
+  "Aarakocra" : {
+    "name" : "Aarakocra",
+    "size" : "Medium",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Aarakocra reach maturity by age 3. Compared to humans, aarakocra don't usually live longer than 30 years.",
+      "Alignment" : "Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic.",
+      "Flight" : "You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor.",
+      "Language" : "You can speak, read, and write Common, Aarakocra, and Auran.",
+      "Size" : "Aarakocra are about 5 feet tall. They have thin, lightweight bodies that weigh between 80 and 100 pounds. Your size is Medium.",
+      "Talons" : "Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Elemental Evil Player's Companion p. 5", "Explorer's Guide to Wildemount p. 165" ]
+  },
+  "Aarakocra (DMG)" : {
+    "name" : "Aarakocra (DMG)",
+    "size" : "Medium",
+    "speed" : "20",
+    "traits" : {
+      "Dive Attack" : "If you are flying and dive at least 30 ft. straight toward a target and then hit it with a melee weapon attack, the attack deals an extra 1d6 damage to the target.",
+      "Language" : "You can speak, read, and write Auran.",
+      "Talons" : "You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit."
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Wis" : 2
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Aasimar (DMG)" : {
+    "name" : "Aasimar (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Charisma",
+    "traits" : {
+      "Age" : "Aasimar (DMG) mature at the same rate as humans but live a few years longer.",
+      "Alignment" : "Due to their celestial heritage, Aasimar (DMG) are often good. However, some Aasimar (DMG) fall into evil, rejecting their heritage.",
+      "Celestial Legacy" : "You know the light cantrip. Once you reach 3rd level, you can cast the lesser restoration spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the daylight spell once with this trait as a 3rd-level spell, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.",
+      "Celestial Resistance" : "You have resistance to necrotic and radiant damage.",
+      "Darkvision" : "Thanks to your celestial heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.",
+      "Language" : "You can speak, read, and write Common and Celestial.",
+      "Size" : "Aasimar (DMG) are built like well-proportioned humans. Your size is Medium."
+    },
+    "abilities" : {
+      "Cha" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Dungeon Master's Guide p. 286", "Explorer's Guide to Wildemount p. 166" ]
+  },
+  "Aetherborn" : {
+    "name" : "Aetherborn",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Aetherborn come into being as adults and live no more than a few years.",
+      "Alignment" : "As a rule, aetherborn are driven by hedonism and self-interest, making them neutral at best and thoroughly evil at worst. Neutral aetherborn might devote much of their time (and wealth) to parties and social activity, while evil aetherborn are usually involved in the criminal underworld.",
+      "Born of Aether" : "You have resistance to necrotic damage.",
+      "Darkvision" : "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Gift of the Aetherborn" : "An unknown aetherborn, desperately seeking a means to extend their short life, discovered a process of transformation that prolonged their existence-by giving them the ability to feed on the life essence of other beings. Since then, other aetherborn have learned and carried out this monstrous transformation, and aetherborn with this \"gift\" have become a small minority among an already small population. A gifted aetherborn has the ability to drain the life essence of other beings. Similar to the way heat is transferred from a warm object to a cold one, a gifted aetherborn need only touch another living being with a clawed hand to draw life essence out, fueling their own continued existence while draining strength and vitality from their victim. For many aetherborn, living as they do for indulgence and instant gratification, the concepts of \"want\" and \"need\" are virtually synonymous. But Aetherborn with this gift understand what it is to truly need, for they develop a hunger for life essence that far exceeds any desires they might have felt before their transformation. A gifted aetherborn who abstains from this feeding deteriorates even more rapidly than other aetherborn, while enduring unspeakable agony caused by the deprivation of life energy. At the DM's option, an aetherborn character can research methods of achieving this dark \"gift.\" The process is similar to inventing and manufacturing a rare magic item (see \"Inventing and Manufacturing Devices\" earlier in this document). But rather than aether, the process requires a variety of rare unguents and unusual ingredients that make up the cost of researching and undergoing the transformation. An aetherborn with this gift gains the Drain Life ability: a natural attack that deals 1d6 necrotic damage and restores the same number of hit points to the aetherborn. However, if the aetherborn goes for 7 days without dealing this damage, their hit point maximum is reduced by 1d6 per week. This reduction can't be removed until the aetherborn has used their Drain Life ability and completed a long rest.",
+      "Languages" : "You can speak, read, and write Common and two other languages of your choice.",
+      "Menacing" : "You have proficiency in the Intimidation skill.",
+      "Size" : "Aetherborn are about the same size as humans, ranging from 5 to 6 feet tall. They are quite light-only about 100 pounds-and their weight diminishes as they age and more and more of their substance returns to the aethersphere. Your size is Medium."
+    },
+    "proficiencies" : {
+      "Intimidation" : true
+    },
+    "abilities" : {
+      "Cha" : 2
+    },
+    "sources" : [ "Plane Shift: Kaladesh p. 17" ]
+  },
+  "Aven" : {
+    "name" : "Aven",
+    "size" : "Medium",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Like humans, aven reach adulthood in their late teens and can live into their 80s.",
+      "Alignment" : "Aven are inclined toward the lawful good alignment of the Church of Serra",
+      "Flight" : "You have a flying speed of 30 feet. You can't use your flying speed while you wear medium or heavy armor. (If your campaign uses the variant rule for encumbrance, you can't use your flying speed if you are encumbered.)",
+      "Hawkeyed" : "You have proficiency in the Perception skill. In addition, attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
+      "Languages" : "You can speak, read, and write Common and Aven.",
+      "Size" : "Aven stand from 5 to 6 feet tall, but their bodies are slender and their bones are partially hollow to facilitate their flight. Your size is Medium."
+    },
+    "proficiencies" : {
+      "Perception" : true
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Wis" : 2
+    },
+    "sources" : [ "Plane Shift: Dominaria p. 6" ]
+  },
+  "Aven (Hawk-Headed)" : {
+    "name" : "Aven (Hawk-Headed)",
+    "size" : "Medium",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Like humans, aven reach adulthood in their late teens and can theoretically live into their 80s. Of course, most find a glorious (or inglorious) death long before that point.",
+      "Alignment" : "Most aven lean toward some form of neutrality. Ibis-headed aven, focused more on knowledge than any other virtue, are usually neutral. Hawk-headed aven are inclined toward lawful neutral.",
+      "Flight" : "You have a flying speed of 30 feet. You can't use your flying speed while you wear medium or heavy armor. (If your campaign uses the variant rule for encumbrance, you can't use your flying speed if you are encumbered.)",
+      "Hawkeyed" : "You have proficiency in the Perception skill. In addition, attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
+      "Languages" : "You can speak, read, and write Common and Aven.",
+      "Size" : "Aven stand from 5 to 6 feet tall, but their bodies are slender and their bones are partially hollow to facilitate their flight. Your size is Medium."
+    },
+    "proficiencies" : {
+      "Perception" : true
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Wis" : 2
+    },
+    "sources" : [ "Plane Shift: Amonkhet p. 16" ]
+  },
+  "Aven (Ibis-Headed)" : {
+    "name" : "Aven (Ibis-Headed)",
+    "size" : "Medium",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Like humans, aven reach adulthood in their late teens and can theoretically live into their 80s. Of course, most find a glorious (or inglorious) death long before that point.",
+      "Alignment" : "Most aven lean toward some form of neutrality. Ibis-headed aven, focused more on knowledge than any other virtue, are usually neutral. Hawk-headed aven are inclined toward lawful neutral.",
+      "Flight" : "You have a flying speed of 30 feet. You can't use your flying speed while you wear medium or heavy armor. (If your campaign uses the variant rule for encumbrance, you can't use your flying speed if you are encumbered.)",
+      "Kefnet's Blessing" : "You can add half your proficiency bonus, rounded down, to any Intelligence check you make that doesn't already include your proficiency bonus.",
+      "Languages" : "You can speak, read, and write Common and Aven.",
+      "Size" : "Aven stand from 5 to 6 feet tall, but their bodies are slender and their bones are partially hollow to facilitate their flight. Your size is Medium."
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Int" : 1
+    },
+    "sources" : [ "Plane Shift: Amonkhet p. 16" ]
+  },
+  "Bugbear" : {
+    "name" : "Bugbear",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Bugbears reach adulthood at age 16 and live up to 80 years.",
+      "Alignment" : "Bugbears live on the fringes of society even in Darguun, where they value self-sufficiency and violence. They are generally chaotic, organizing in loose tribes under charismatic and powerful leaders.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common and Goblin.",
+      "Long-Limbed" : "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.",
+      "Powerful Build" : "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+      "Size" : "Your size is Medium.",
+      "Sneaky" : "You are proficient in the Stealth skill.",
+      "Surprise Attack" : "If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
+    },
+    "proficiencies" : {
+      "Stealth" : true
+    },
+    "abilities" : {
+      "Dex" : 1,
+      "Str" : 2
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 25" ]
+  },
+  "Bullywug (DMG)" : {
+    "name" : "Bullywug (DMG)",
+    "size" : "Medium",
+    "speed" : "20",
+    "traits" : {
+      "Amphibious" : "You can breathe air and water.",
+      "Languages" : "You can speak, read, and write Bullywug (DMG).",
+      "Speak with Frogs and Toads" : "You can communicate simple concepts to frogs and toads when you speak in Bullywug (DMG).",
+      "Standing Leap" : "Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start.",
+      "Swamp Camouflage" : "You have advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+    },
+    "abilities" : {
+      "Cha" : -2,
+      "Int" : -2
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Centaur (Theros)" : {
+    "name" : "Centaur (Theros)",
+    "size" : "Medium",
+    "speed" : "40",
+    "traits" : {
+      "Age" : "Centaurs mature and age at about the same rate as humans.",
+      "Alignment" : "Centaurs are inclined toward neutrality. Lagonna centaurs tend to be more lawful, while Pheres centaurs are more often chaotic.",
+      "Charge" : "If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.",
+      "Equine Build" : "You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.",
+      "Fey" : "Your creature type is fey, rather than humanoid.",
+      "Hooves" : "Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+      "Languages" : "You can speak, read, and write Common and Sylvan.",
+      "Size" : "Centaurs stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers. Pheres centaurs tend to be slightly larger than Lagonna centaurs. Your size is Medium.",
+      "Survivor" : "You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival."
+    },
+    "abilities" : {
+      "Str" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Mythic Odysseys of Theros p. 18" ]
+  },
+  "Changeling" : {
+    "name" : "Changeling",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Changelings mature slightly faster than humans but share a similar lifespan-typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans.",
+      "Alignment" : "Changelings tend toward pragmatic neutrality, and few changelings embrace evil.",
+      "Changeling Instincts" : "You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, and Persuasion.",
+      "Languages" : "You can speak, read, and write Common and two other languages of your choice.",
+      "Shapechanger" : "As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait. You stay in the new form until you use an action to revert to your true form or until you die.",
+      "Size" : "Your size is Medium."
+    },
+    "abilities" : {
+      "Cha" : 2
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 17", "Wayfinder's Guide to Eberron p. 60" ]
+  },
+  "Custom Lineage" : {
+    "name" : "Custom Lineage",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Creature Type" : "You are a humanoid. You determine your appearance and whether you resemble any of your kin.",
+      "Feat" : "You gain one feat of your choice for which you qualify.",
+      "Languages" : "You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.",
+      "Size" : "You are Small or Medium (your choice).",
+      "Variable Trait" : "You gain one of the following options of your choice: (a) darkvision with a range of 60 feet or (b) proficiency in one skill of your choice."
+    },
+    "description" : "Instead of choosing one of the game's races for your character at 1st level, you can use the following traits to represent your character's lineage, giving you full control over how your character's origin shaped them: Source: Tasha's Cauldron of Everything p. 8"
+  },
+  "Dragonborn" : {
+    "name" : "Dragonborn",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.",
+      "Alignment" : "Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains.",
+      "Breath Weapon" : "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+      "Damage Resistance" : "You have resistance to the damage type associated with your draconic ancestry.",
+      "Draconic Ancestry" : "Draconic Ancestry You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table. Dragon | Damage Type | Breath Weapon Black | Acid | 5 by 30 ft. line (Dex. save) Blue | Lightning | 5 by 30 ft. line (Dex. save) Brass | Fire | 5 by 30 ft. line (Dex. save) Bronze | Lightning | 5 by 30 ft. line (Dex. save) Copper | Acid | 5 by 30 ft. line (Dex. save) Gold | Fire | 15 ft. cone (Dex. save) Green | Poison | 15 ft. cone (Con. save) Red | Fire | 15 ft. cone (Dex. save) Silver | Cold | 15 ft. cone (Con. save) White | Cold | 15 ft. cone (Con. save)",
+      "Languages" : "You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.",
+      "Size" : "Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium."
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Str" : 2
+    },
+    "sources" : [ "Player's Handbook p. 32" ]
+  },
+  "Dwarf (Hill)" : {
+    "name" : "Dwarf (Hill)",
+    "size" : "Medium",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
+      "Alignment" : "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
+      "Darkvision" : "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Dwarven Combat Training" : "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.",
+      "Dwarven Resilience" : "You have advantage on saving throws against poison, and you have resistance against poison damage.",
+      "Dwarven Toughness" : "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+      "Languages" : "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.",
+      "Size" : "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
+      "Speed" : "Your speed is not reduced by wearing heavy armor.",
+      "Stonecunning" : "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
+      "Tool Proficiency" : "You gain proficiency with the artisan's tools of your choice: Smith's tools, brewer's supplies, or mason's tools."
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Player's Handbook p. 20" ]
+  },
+  "Dwarf (Kaladesh)" : {
+    "name" : "Dwarf (Kaladesh)",
+    "size" : "Medium",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
+      "Alignment" : "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
+      "Artisan's Expertise" : "You gain proficiency with two kinds of artisan's tools of your choice. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. In addition, whenever you make an Intelligence (History) check related to the origin of any architectural construction (including buildings, public works such as canals and aqueducts, and the massive cogwork that underlies much of the construction of Ghirapur), you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
+      "Darkvision" : "Accustomed to life underground in your race's ancient past, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Dwarven Resilience" : "You have advantage on saving throws against poison, and you have resistance against poison damage.",
+      "Dwarven Toughness" : "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+      "Languages" : "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.",
+      "Size" : "Dwarves stand around 5 feet tall and average about 150 pounds. Your size is Medium.",
+      "Speed" : "Your speed is not reduced by wearing heavy armor."
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Plane Shift: Kaladesh p. 19" ]
+  },
+  "Dwarf (Mountain)" : {
+    "name" : "Dwarf (Mountain)",
+    "size" : "Medium",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
+      "Alignment" : "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
+      "Darkvision" : "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Dwarven Armor Training" : "You have proficiency with light and medium armor.",
+      "Dwarven Combat Training" : "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.",
+      "Dwarven Resilience" : "You have advantage on saving throws against poison, and you have resistance against poison damage.",
+      "Languages" : "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.",
+      "Size" : "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
+      "Speed" : "Your speed is not reduced by wearing heavy armor.",
+      "Stonecunning" : "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
+      "Tool Proficiency" : "You gain proficiency with the artisan's tools of your choice: Smith's tools, brewer's supplies, or mason's tools."
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Str" : 2
+    },
+    "sources" : [ "Player's Handbook p. 20" ]
+  },
+  "Elf (Drow)" : {
+    "name" : "Elf (Drow)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Charisma",
+    "traits" : {
+      "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+      "Alignment" : "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not.",
+      "Drow Magic" : "You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.",
+      "Drow Weapon Training" : "You have proficiency with rapier, shortsword, and hand crossbow.",
+      "Fey Ancestry" : "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+      "Keen Senses" : "You have proficiency in the Perception skill.",
+      "Languages" : "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+      "Size" : "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+      "Sunlight Sensitivity" : "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.",
+      "Superior Darkvision" : "Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Trance" : "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep. If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed."
+    },
+    "proficiencies" : {
+      "Perception" : true
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Dex" : 2
+    },
+    "sources" : [ "Player's Handbook p. 24" ]
+  },
+  "Elf (High)" : {
+    "name" : "Elf (High)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Intelligence",
+    "traits" : {
+      "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+      "Alignment" : "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not.",
+      "Cantrip" : "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
+      "Darkvision" : "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Elf Weapon Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+      "Extra Language" : "You can speak, read, and write one extra language of your choosing.",
+      "Fey Ancestry" : "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+      "Keen Senses" : "You have proficiency in the Perception skill.",
+      "Languages" : "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+      "Size" : "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+      "Trance" : "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep. If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed."
+    },
+    "proficiencies" : {
+      "Perception" : true
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Int" : 1
+    },
+    "sources" : [ "Player's Handbook p. 23" ]
+  },
+  "Elf (Kaladesh) (Bishatar and Tirahar)" : {
+    "name" : "Elf (Kaladesh) (Bishatar and Tirahar)",
+    "size" : "Medium",
+    "speed" : "35",
+    "traits" : {
+      "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+      "Alignment" : "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not.",
+      "Darkvision" : "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Elf Weapon Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+      "Fey Ancestry" : "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+      "Fleet of Foot" : "Your ground speed increases to 35 feet.",
+      "Keen Senses" : "You have proficiency in the Perception skill.",
+      "Languages" : "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+      "Mask of the Wild" : "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+      "Size" : "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+      "Trance" : "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep. If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed."
+    },
+    "proficiencies" : {
+      "Perception" : true
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Plane Shift: Kaladesh p. 21" ]
+  },
+  "Elf (Kaladesh) (Vadahar)" : {
+    "name" : "Elf (Kaladesh) (Vadahar)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Wisdom",
+    "traits" : {
+      "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+      "Alignment" : "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not.",
+      "Cantrip" : "You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.",
+      "Darkvision" : "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Elf Weapon Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+      "Extra Language" : "You can speak, read, and write one extra language of your choosing.",
+      "Fey Ancestry" : "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+      "Keen Senses" : "You have proficiency in the Perception skill.",
+      "Languages" : "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+      "Size" : "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+      "Trance" : "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep. If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed."
+    },
+    "proficiencies" : {
+      "Perception" : true
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Plane Shift: Kaladesh p. 21" ]
+  },
+  "Elf (Wood)" : {
+    "name" : "Elf (Wood)",
+    "size" : "Medium",
+    "speed" : "35",
+    "traits" : {
+      "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+      "Alignment" : "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not.",
+      "Darkvision" : "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Elf Weapon Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+      "Fey Ancestry" : "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+      "Fleet of Foot" : "Your base walking speed increases to 35 feet.",
+      "Keen Senses" : "You have proficiency in the Perception skill.",
+      "Languages" : "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+      "Mask of the Wild" : "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+      "Size" : "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+      "Trance" : "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep. If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed."
+    },
+    "proficiencies" : {
+      "Perception" : true
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Player's Handbook p. 24" ]
+  },
+  "Elf (Zendikar) (Joraga Nation)" : {
+    "name" : "Elf (Zendikar) (Joraga Nation)",
+    "size" : "Medium",
+    "speed" : "35",
+    "traits" : {
+      "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+      "Alignment" : "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not.",
+      "Darkvision" : "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Elf Weapon Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+      "Fey Ancestry" : "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+      "Fleet of Foot" : "Your ground speed increases to 35 feet.",
+      "Keen Senses" : "You have proficiency in the Perception skill.",
+      "Languages" : "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+      "Mask of the Wild" : "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+      "Size" : "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium."
+    },
+    "proficiencies" : {
+      "Perception" : true
+    },
+    "abilities" : {
+      "Dex" : 1,
+      "Wis" : 2
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 19" ]
+  },
+  "Elf (Zendikar) (Mul Daya Nation)" : {
+    "name" : "Elf (Zendikar) (Mul Daya Nation)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Wisdom",
+    "traits" : {
+      "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+      "Alignment" : "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not.",
+      "Elf Weapon Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+      "Fey Ancestry" : "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+      "Keen Senses" : "You have proficiency in the Perception skill.",
+      "Languages" : "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+      "Mul Daya Magic" : "You know the chill touch cantrip. When you reach 3rd level, you can cast the hex spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells.",
+      "Size" : "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+      "Sunlight Sensitivity" : "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.",
+      "Superior Darkvision" : "Your Darkvision has a radius of 120 feet."
+    },
+    "proficiencies" : {
+      "Perception" : true
+    },
+    "abilities" : {
+      "Str" : 1,
+      "Wis" : 2
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 19" ]
+  },
+  "Elf (Zendikar) (Tajuru Nation)" : {
+    "name" : "Elf (Zendikar) (Tajuru Nation)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+      "Alignment" : "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not.",
+      "Darkvision" : "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Fey Ancestry" : "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+      "Keen Senses" : "You have proficiency in the Perception skill.",
+      "Languages" : "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+      "Size" : "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+      "Skill Versatility" : "You have proficiency with any combination of two other skills or tools of your choice."
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Wis" : 2
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 18" ]
+  },
+  "Genasi (Air)" : {
+    "name" : "Genasi (Air)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Constitution",
+    "traits" : {
+      "Age" : "Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.",
+      "Alignment" : "Independent and self-reliant, genasi tend toward a neutral alignment.",
+      "Languages" : "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.",
+      "Mingle with the Wind" : "You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.",
+      "Size" : "Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium.",
+      "Unending Breath" : "You can hold your breath indefinitely while you're not incapacitated."
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Dex" : 1
+    },
+    "sources" : [ "Elemental Evil Player's Companion p. 9", "Explorer's Guide to Wildemount p. 170" ]
+  },
+  "Genasi (Earth)" : {
+    "name" : "Genasi (Earth)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Constitution",
+    "traits" : {
+      "Age" : "Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.",
+      "Alignment" : "Independent and self-reliant, genasi tend toward a neutral alignment.",
+      "Earth Walk" : "You can move across difficult terrain made of earth or stone without expending extra movement.",
+      "Languages" : "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.",
+      "Merge with Stone" : "You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.",
+      "Size" : "Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium."
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Str" : 1
+    },
+    "sources" : [ "Elemental Evil Player's Companion p. 9", "Explorer's Guide to Wildemount p. 170" ]
+  },
+  "Genasi (Fire)" : {
+    "name" : "Genasi (Fire)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Constitution",
+    "traits" : {
+      "Age" : "Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.",
+      "Alignment" : "Independent and self-reliant, genasi tend toward a neutral alignment.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red.",
+      "Fire Resistance" : "You have resistance to fire damage.",
+      "Languages" : "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.",
+      "Reach to the Blaze" : "You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+      "Size" : "Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium."
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Int" : 1
+    },
+    "sources" : [ "Elemental Evil Player's Companion p. 9", "Explorer's Guide to Wildemount p. 170" ]
+  },
+  "Genasi (Water)" : {
+    "name" : "Genasi (Water)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Constitution",
+    "traits" : {
+      "Acid Resistance" : "You have resistance to acid damage.",
+      "Age" : "Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.",
+      "Alignment" : "Independent and self-reliant, genasi tend toward a neutral alignment.",
+      "Amphibious" : "You can breathe air and water.",
+      "Call to the Wave" : "You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+      "Languages" : "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.",
+      "Size" : "Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium.",
+      "Swim" : "You have a swimming speed of 30 feet."
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Elemental Evil Player's Companion p. 10", "Explorer's Guide to Wildemount p. 170" ]
+  },
+  "Gith (Githyanki)" : {
+    "name" : "Gith (Githyanki)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Intelligence",
+    "traits" : {
+      "Age" : "Gith reach adulthood in their late teens and live for about a century.",
+      "Alignment" : "Githyanki tend toward lawful evil. They are aggressive and arrogant, and they remain the faithful servants of their lich-queen, Vlaakith. Renegade githyanki tend toward chaos.",
+      "Decadent Mastery" : "You learn one language of your choice, and you are proficient with one skill or tool of your choice. In the timeless city of Tu'narath, githyanki have bountiful time to master odd bits of knowledge.",
+      "Githyanki Psionics" : "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast jump once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the misty step spell once with this trait, and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.",
+      "Languages" : "You can speak, read, and write Common and Gith.",
+      "Martial Prodigy" : "You are proficient with light and medium armor and with shortswords, longswords, and greatswords.",
+      "Size" : "Gith are taller and leaner than humans, with most a slender 6 feet in height."
+    },
+    "abilities" : {
+      "Int" : 1,
+      "Str" : 2
+    },
+    "sources" : [ "Mordenkainen's Tome of Foes p. 96" ]
+  },
+  "Gith (Githzerai)" : {
+    "name" : "Gith (Githzerai)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Wisdom",
+    "traits" : {
+      "Age" : "Gith reach adulthood in their late teens and live for about a century.",
+      "Alignment" : "Githzerai tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline.",
+      "Githzerai Psionics" : "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast shield once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the detect thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.",
+      "Languages" : "You can speak, read, and write Common and Gith.",
+      "Mental Discipline" : "You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.",
+      "Size" : "Gith are taller and leaner than humans, with most a slender 6 feet in height."
+    },
+    "abilities" : {
+      "Int" : 1,
+      "Wis" : 2
+    },
+    "sources" : [ "Mordenkainen's Tome of Foes p. 96" ]
+  },
+  "Gnoll (DMG)" : {
+    "name" : "Gnoll (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Bite" : "Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Rampage" : "When you reduce a creature to 0 hit points with a melee attack on your turn, you can take a bonus action to move up to half your speed and make a bite attack."
+    },
+    "abilities" : {
+      "Int" : -2,
+      "Str" : 2
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Gnome (Deep) (DMG)" : {
+    "name" : "Gnome (Deep) (DMG)",
+    "size" : "Medium",
+    "speed" : "20",
+    "spellAbility" : "Intelligence",
+    "traits" : {
+      "Gnome Cunning" : "You have advantage on Intelligence, Wisdom, and Charisma saving throws against magic.",
+      "Innate Spellcasting" : "You have an innate ability to cast the following spells, requiring no material components: * At will: nondetection (self only) * 1/day each: blindness/deafness, blur, disguise self Intelligence is your spellcasting ability for these spells.",
+      "Languages" : "You can speak, read, and write Gnomish, Terran, and Undercommon.",
+      "Superior Darkvision" : "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Str" : 1
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Gnome (Forest)" : {
+    "name" : "Gnome (Forest)",
+    "size" : "Small",
+    "speed" : "25",
+    "spellAbility" : "Intelligence",
+    "traits" : {
+      "Age" : "Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
+      "Alignment" : "Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.",
+      "Darkvision" : "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Gnome Cunning" : "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.",
+      "Languages" : "You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.",
+      "Natural Illusionist" : "You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.",
+      "Size" : "Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.",
+      "Speak with Small Beasts" : "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+    },
+    "abilities" : {
+      "Dex" : 1,
+      "Int" : 2
+    },
+    "sources" : [ "Player's Handbook p. 37" ]
+  },
+  "Gnome (Rock)" : {
+    "name" : "Gnome (Rock)",
+    "size" : "Small",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
+      "Alignment" : "Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.",
+      "Artificer's Lore" : "Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.",
+      "Darkvision" : "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Gnome Cunning" : "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.",
+      "Languages" : "You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.",
+      "Size" : "Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.",
+      "Tinker" : "You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:"
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Int" : 2
+    },
+    "sources" : [ "Player's Handbook p. 37" ]
+  },
+  "Goblin" : {
+    "name" : "Goblin",
+    "size" : "Small",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Goblins reach adulthood at age 8 and live up to 60 years.",
+      "Alignment" : "In Eberron, goblins are usually neutral. They tend to look out for themselves, preferably without drawing unwanted attention from any larger, more powerful people.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Fury of the Small" : "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.",
+      "Languages" : "You can speak, read, and write Common and Goblin.",
+      "Nimble Escape" : "You can take the Disengage or Hide action as a bonus action on each of your turns.",
+      "Size" : "Your size is Small."
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Dex" : 2
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 26", "Explorer's Guide to Wildemount p. 174" ]
+  },
+  "Goblin (DMG)" : {
+    "name" : "Goblin (DMG)",
+    "size" : "Small",
+    "speed" : "30",
+    "traits" : {
+      "Darkvision" : "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common and Goblin (DMG).",
+      "Nimble Escape" : "You can take the Disengage or Hide action as a bonus action on each of your turns."
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Str" : -2
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Goblin (Dankwood)" : {
+    "name" : "Goblin (Dankwood)",
+    "size" : "Small",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Goblins reach adulthood at age 8 and live up to 60 years.",
+      "Alignment" : "Dankwood goblins are typically neutral or neutral good, though some mischievous dankwood goblins are chaotic neutral.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common and Goblin.",
+      "Nimble Escape" : "You can take the Disengage or Hide action as a bonus action on each of your turns.",
+      "Size" : "Goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.",
+      "Speak with Small Beasts" : "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Dankwood goblins love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Dex" : 2
+    },
+    "sources" : [ "Adventure with Muk p. 35", "Explorer's Guide to Wildemount p. 174" ]
+  },
+  "Goblin (Ixalan)" : {
+    "name" : "Goblin (Ixalan)",
+    "size" : "Small",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Goblins mature faster than humans, reaching adulthood around age 12. They age noticeably faster, and though few goblins live to old age, the most cautious rarely live longer than 50 years.",
+      "Agile Climber" : "You have a climbing speed of 25 feet. You can't use your climbing speed while you wear medium or heavy armor. (If your campaign uses the variant rule for encumbrance, you can't use your climbing speed if you are encumbered.)",
+      "Alignment" : "Most goblins are wildly chaotic, with no particular inclination toward good or evil but a strong tendency toward mischief.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common (if it exists in your campaign) and Goblin.",
+      "Size" : "Goblins average about 3 feet tall and weigh about 40 pounds. Your size is Small."
+    },
+    "abilities" : {
+      "Dex" : 2
+    },
+    "sources" : [ "Plane Shift: Ixalan p. 16" ]
+  },
+  "Goblin (Zendikar) (Grotag Tribe)" : {
+    "name" : "Goblin (Zendikar) (Grotag Tribe)",
+    "size" : "Small",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Goblins mature faster than humans, reaching adulthood at around age 12. They also age noticeably faster than humans, and even the most cautious goblins rarely live longer than 50 years.",
+      "Alignment" : "Most goblins are wildly chaotic, though they have no particular inclination toward good or evil.",
+      "Darkvision" : "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Grit" : "You have resistance to fire damage and psychic damage. In addition, when you are wearing no armor, your AC is equal to 11 + your Dexterity modifier.",
+      "Grotag Tamer" : "You have proficiency in the Animal Handling skill.",
+      "Languages" : "You can speak, read, and write Common and Goblin.",
+      "Size" : "Goblins average about 3 feet tall and weigh about 40 pounds. Your size is Small."
+    },
+    "proficiencies" : {
+      "Animal Handling" : true
+    },
+    "abilities" : {
+      "Con" : 2
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 17" ]
+  },
+  "Goblin (Zendikar) (Lavastep Tribe)" : {
+    "name" : "Goblin (Zendikar) (Lavastep Tribe)",
+    "size" : "Small",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Goblins mature faster than humans, reaching adulthood at around age 12. They also age noticeably faster than humans, and even the most cautious goblins rarely live longer than 50 years.",
+      "Alignment" : "Most goblins are wildly chaotic, though they have no particular inclination toward good or evil.",
+      "Darkvision" : "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Grit" : "You have resistance to fire damage and psychic damage. In addition, when you are wearing no armor, your AC is equal to 11 + your Dexterity modifier.",
+      "Languages" : "You can speak, read, and write Common and Goblin.",
+      "Lavastep Grit" : "You have advantage on Dexterity (Stealth) checks made to hide in rocky or subterranean environments.",
+      "Size" : "Goblins average about 3 feet tall and weigh about 40 pounds. Your size is Small."
+    },
+    "abilities" : {
+      "Con" : 2
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 17" ]
+  },
+  "Goblin (Zendikar) (Tuktuk Tribe)" : {
+    "name" : "Goblin (Zendikar) (Tuktuk Tribe)",
+    "size" : "Small",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Goblins mature faster than humans, reaching adulthood at around age 12. They also age noticeably faster than humans, and even the most cautious goblins rarely live longer than 50 years.",
+      "Alignment" : "Most goblins are wildly chaotic, though they have no particular inclination toward good or evil.",
+      "Darkvision" : "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Grit" : "You have resistance to fire damage and psychic damage. In addition, when you are wearing no armor, your AC is equal to 11 + your Dexterity modifier.",
+      "Languages" : "You can speak, read, and write Common and Goblin.",
+      "Size" : "Goblins average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
+      "Tuktuk Cunning" : "You have proficiency with thieves' tools."
+    },
+    "abilities" : {
+      "Con" : 2
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 17" ]
+  },
+  "Grimlock (DMG)" : {
+    "name" : "Grimlock (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Blindsight" : "You have no eyes, and cannot be blinded. You can perceive your surroundings within 30 ft., or 10 ft. while deafened. You are considered blind beyond this radius.",
+      "Keen Hearing and Smell" : "You have advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "Languages" : "You can speak, read, and write Undercommon.",
+      "Stone Camouflage" : "You have advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+    },
+    "abilities" : {
+      "Cha" : -2,
+      "Str" : 2
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Grung" : {
+    "name" : "Grung",
+    "size" : "Small",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "Grungs mature to adulthood in a single year, but have been known to live up to 50 years.",
+      "Alignment" : "Most grungs are lawful, having been raised in a strict caste system. They tend toward evil as well, coming from a culture where social advancement occurs rarely, and most often because another member of your army has died and there is no one else of that caste to fill the vacancy.",
+      "Amphibious" : "You can breathe air and water.",
+      "Arboreal Alertness" : "You have proficiency in the Perception skill.",
+      "Languages" : "You can speak, read, and write Grung.",
+      "Poison Immunity" : "You're immune to poison damage and the poisoned condition.",
+      "Poisonous Skin" : "Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with you can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can also apply this poison to any piercing weapon as part of an attack with that weapon, though when you hit the poison reacts differently. The target must succeed on a DC 12 Constitution saving throw or take 2d4 poison damage.",
+      "Size" : "Grungs stand between 2½ and 3½ feet tall and average about 30 pounds. Your size is Small.",
+      "Standing Leap" : "Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start.",
+      "Water Dependency" : "If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of exhaustion at the end of that day. You can only recover from this exhaustion through magic or by immersing yourself in water for at least 1 hour."
+    },
+    "proficiencies" : {
+      "Perception" : true
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Dex" : 2
+    },
+    "sources" : [ "One Grung Above p. 4" ]
+  },
+  "Half-Elf" : {
+    "name" : "Half-Elf",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.",
+      "Alignment" : "Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable.",
+      "Darkvision" : "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Fey Ancestry" : "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+      "Languages" : "You can speak, read, and write Common, Elvish, and one extra language of your choice.",
+      "Size" : "Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.",
+      "Skill Versatility" : "You gain proficiency in two skills of your choice."
+    },
+    "abilities" : {
+      "Cha" : 2
+    },
+    "sources" : [ "Player's Handbook p. 38" ]
+  },
+  "Half-Orc" : {
+    "name" : "Half-Orc",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.",
+      "Alignment" : "Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.",
+      "Darkvision" : "Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.",
+      "Menacing" : "You gain proficiency in the Intimidation skill.",
+      "Relentless Endurance" : "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+      "Savage Attacks" : "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+      "Size" : "Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium."
+    },
+    "proficiencies" : {
+      "Intimidation" : true
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Str" : 2
+    },
+    "sources" : [ "Player's Handbook p. 40" ]
+  },
+  "Half-Orc (Mark of Finding)" : {
+    "name" : "Half-Orc (Mark of Finding)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Wisdom",
+    "traits" : {
+      "Age" : "Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.",
+      "Alignment" : "Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Finder's Magic" : "You can cast the hunter's mark spell with this trait. Starting at 3rd level, you can also cast the locate object spell with it. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.",
+      "Hunter's Intuition" : "When you make a Wisdom (Perception) or Wisdom (Survival) check, you can roll a d4 and add the number rolled to the ability check.",
+      "Languages" : "You can speak, read, and write Common and Goblin.",
+      "Size" : "Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.",
+      "Spells of the Mark" : "Mark of Finding Spells If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Finding Spells table are added to the spell list of your spellcasting class. Spell Level | Spells 1st | faerie fire, longstrider 2nd | locate animals or plants, locate object 3rd | clairvoyance, speak with plants 4th | divination, locate creature 5th | commune with nature"
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Wis" : 2
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 41", "Wayfinder's Guide to Eberron p. 98" ]
+  },
+  "Halfling (Lightfoot)" : {
+    "name" : "Halfling (Lightfoot)",
+    "size" : "Small",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+      "Alignment" : "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
+      "Brave" : "You have advantage on saving throws against being frightened.",
+      "Halfling Nimbleness" : "You can move through the space of any creature that is of a size larger than yours.",
+      "Languages" : "You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.",
+      "Lucky" : "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+      "Naturally Stealthy" : "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.",
+      "Size" : "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small."
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Dex" : 2
+    },
+    "sources" : [ "Player's Handbook p. 28" ]
+  },
+  "Halfling (Stout)" : {
+    "name" : "Halfling (Stout)",
+    "size" : "Small",
+    "speed" : "25",
+    "traits" : {
+      "Age" : "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+      "Alignment" : "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
+      "Brave" : "You have advantage on saving throws against being frightened.",
+      "Halfling Nimbleness" : "You can move through the space of any creature that is of a size larger than yours.",
+      "Languages" : "You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.",
+      "Lucky" : "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+      "Size" : "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
+      "Stout Resilience" : "You have advantage on saving throws against poison, and you have resistance against poison damage."
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Dex" : 2
+    },
+    "sources" : [ "Player's Handbook p. 28" ]
+  },
+  "Hobgoblin" : {
+    "name" : "Hobgoblin",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs.",
+      "Alignment" : "Hobgoblin society in Eberron is shaped by the ideal of a strict code of honor and rigid martial discipline. Most hobgoblins are lawful, tending toward harsh enforcement of their laws.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common and Goblin.",
+      "Martial Training" : "You are proficient with two martial weapons of your choice and with light armor.",
+      "Saving Face" : "Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest.",
+      "Size" : "Your size is Medium."
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Int" : 1
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 26", "Explorer's Guide to Wildemount p. 175" ]
+  },
+  "Hobgoblin (DMG)" : {
+    "name" : "Hobgoblin (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common and Goblin.",
+      "Martial Advantage" : "Once per turn, you can deal an extra 2d6 damage to a creature you hit with a weapon attack if that creature is within 5 ft. of an ally of yours that isn't incapacitated."
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Human" : {
+    "name" : "Human",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Humans reach adulthood in their late teens and live less than a century.",
+      "Alignment" : "Humans tend toward no particular alignment. The best and the worst are found among them.",
+      "Languages" : "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.",
+      "Size" : "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Con" : 1,
+      "Dex" : 1,
+      "Int" : 1,
+      "Str" : 1,
+      "Wis" : 1
+    },
+    "sources" : [ "Player's Handbook p. 29" ]
+  },
+  "Human (Amonkhet)" : {
+    "name" : "Human (Amonkhet)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Ability Score Increase" : "Two different ability scores of your choice increase by 1.",
+      "Age" : "Humans reach adulthood in their late teens. Most human initiates have completed the trials and found a glorious or inglorious death before they turn 30. Viziers can enjoy longer service to their gods, in theory living up to a century.",
+      "Alignment" : "Humans tend toward no particular alignment. The best and the worst are found among them.",
+      "Feat" : "You gain one feat of your choice.",
+      "Languages" : "You can speak, read, and write Common and one extra language of your choice.",
+      "Size" : "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium",
+      "Skills" : "You gain proficiency in one skill of your choice."
+    },
+    "sources" : [ "Plane Shift: Amonkhet p. 14" ]
+  },
+  "Human (Innistrad) (Gavony)" : {
+    "name" : "Human (Innistrad) (Gavony)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Ability Score Increase" : "Your ability scores each increase by 1.",
+      "Age" : "Humans reach adulthood in their late teens and live less than a century.",
+      "Alignment" : "Humans tend toward no particular alignment.",
+      "Languages" : "You can speak, read, and write Common and one extra language of your choice.",
+      "Size" : "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Con" : 1,
+      "Dex" : 1,
+      "Int" : 1,
+      "Str" : 1,
+      "Wis" : 1
+    },
+    "sources" : [ "Plane Shift: Innistrad p. 8" ]
+  },
+  "Human (Innistrad) (Kessig)" : {
+    "name" : "Human (Innistrad) (Kessig)",
+    "size" : "Medium",
+    "speed" : "40",
+    "traits" : {
+      "Age" : "Humans reach adulthood in their late teens and live less than a century.",
+      "Alignment" : "Humans tend toward no particular alignment.",
+      "Fleet of Foot" : "Your base walking speed is 40 feet.",
+      "Forest Folk" : "You have proficiency in the Survival skill.",
+      "Languages" : "You can speak, read, and write Common and one extra language of your choice.",
+      "Size" : "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+      "Spring Attack" : "When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of your turn, whether you hit or not.",
+      "Sure-footed" : "When you use the Dash action, difficult terrain doesn't cost you extra movement on that turn."
+    },
+    "proficiencies" : {
+      "Survival" : true
+    },
+    "abilities" : {
+      "Dex" : 1,
+      "Wis" : 1
+    },
+    "sources" : [ "Plane Shift: Innistrad p. 8" ]
+  },
+  "Human (Innistrad) (Nephalia)" : {
+    "name" : "Human (Innistrad) (Nephalia)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Humans reach adulthood in their late teens and live less than a century.",
+      "Alignment" : "Humans tend toward no particular alignment.",
+      "Breadth of Knowledge" : "You gain proficiency in any combination of four skills or with four tools of your choice.",
+      "Languages" : "You can speak, read, and write Common and one extra language of your choice.",
+      "Size" : "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Int" : 1
+    },
+    "sources" : [ "Plane Shift: Innistrad p. 8" ]
+  },
+  "Human (Innistrad) (Stensia)" : {
+    "name" : "Human (Innistrad) (Stensia)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Humans reach adulthood in their late teens and live less than a century.",
+      "Alignment" : "Humans tend toward no particular alignment.",
+      "Daunting" : "You have proficiency in the Intimidation skill.",
+      "Languages" : "You can speak, read, and write Common and one extra language of your choice.",
+      "Size" : "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+      "Tough" : "Your hit point maximum increases by 2, and it increases by 2 every time you gain a level."
+    },
+    "proficiencies" : {
+      "Intimidation" : true
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Str" : 1
+    },
+    "sources" : [ "Plane Shift: Innistrad p. 8" ]
+  },
+  "Human (Ixalan)" : {
+    "name" : "Human (Ixalan)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Humans reach adulthood in their late teens and live less than a century.",
+      "Alignment" : "Humans tend toward no particular alignment. The best and the worst are found among them.",
+      "Languages" : "You can speak, read, and write Common and one extra language of your choice. Or, if your campaign uses the optional rules for languages found in the previous section, your national origin determines your native language: Itzocan for the Sun Empire, Coalition pidgin for the Brazen Coalition, or Vampire for the Legion of Dusk. You still speak one additional language of your choice, and Common if it exists in your campaign.",
+      "Size" : "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Con" : 1,
+      "Dex" : 1,
+      "Int" : 1,
+      "Str" : 1,
+      "Wis" : 1
+    },
+    "sources" : [ "Plane Shift: Ixalan p. 11" ]
+  },
+  "Human (Variant)" : {
+    "name" : "Human (Variant)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Humans reach adulthood in their late teens and live less than a century.",
+      "Alignment" : "Humans tend toward no particular alignment. The best and the worst are found among them.",
+      "Feat" : "You gain one feat of your choice.",
+      "Languages" : "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.",
+      "Size" : "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+      "Skills" : "You gain proficiency in one skill of your choice."
+    },
+    "sources" : [ "Player's Handbook p. 31" ]
+  },
+  "Human (Zendikar)" : {
+    "name" : "Human (Zendikar)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Humans reach adulthood in their late teens and live less than a century.",
+      "Alignment" : "Humans tend toward no particular alignment. The best and the worst are found among them.",
+      "Languages" : "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: vampire curses, Elvish musical expressions, merfolk scholarly jargon, and so on.",
+      "Size" : "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 9" ]
+  },
+  "Kalashtar" : {
+    "name" : "Kalashtar",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Kalashtar mature and age at the same rate as humans.",
+      "Alignment" : "The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all beings, but some kalashtar resist the virtuous influence of their spirit.",
+      "Dual Mind" : "You have advantage on all Wisdom saving throws.",
+      "Languages" : "You can speak, read, and write Common, Quori, and one other language of your choice.",
+      "Mental Discipline" : "You have resistance to psychic damage.",
+      "Mind Link" : "You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. When you're using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait's range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it.",
+      "Severed from Dreams" : "Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like dream, but not to spells and other magical effects that put you to sleep, like sleep.",
+      "Size" : "Your size is Medium."
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Wis" : 2
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 29", "Wayfinder's Guide to Eberron p. 62" ]
+  },
+  "Kenku (DMG)" : {
+    "name" : "Kenku (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Ambusher" : "In the first round of a combat, you have advantage on attack rolls against any creature who is surprised.",
+      "Languages" : "You can read and write Common and Auran, but you can only speak using your Mimicry trait.",
+      "Mimicry" : "You can mimic any sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
+    },
+    "abilities" : {
+      "Dex" : 2
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Khenra" : {
+    "name" : "Khenra",
+    "size" : "Medium",
+    "speed" : "35",
+    "traits" : {
+      "Age" : "Khenra mature quickly, reaching adulthood in their early teens. Khenra initiates are usually the youngest in a crop, completing the trials by their late teens. Even without a violent death, they rarely live past 60.",
+      "Alignment" : "Most khenra lean toward chaotic alignments. They have no particular inclination toward good or evil.",
+      "Khenra Twins" : "If your twin is alive and you can see your twin, whenever you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. If your twin is dead (or if you were born without a twin), you can't be frightened.",
+      "Khenra Weapon Training" : "You have proficiency with the khopesh (longsword), spear, and javelin.",
+      "Languages" : "You can speak, read, and write Common and Khenra.",
+      "Size" : "Khenra have similar builds to humans. Your size is Medium."
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Str" : 1
+    },
+    "sources" : [ "Plane Shift: Amonkhet p. 17" ]
+  },
+  "Kobold (DMG)" : {
+    "name" : "Kobold (DMG)",
+    "size" : "Small",
+    "speed" : "30",
+    "traits" : {
+      "Darkvision" : "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common and Draconic.",
+      "Pack Tactics" : "You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "Sunlight Sensitivity" : "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Str" : -4
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Kor" : {
+    "name" : "Kor",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Kor mature at the same rate as humans and live about as long.",
+      "Alignment" : "Most kor are lawful good, with a strong dedication to community and the traditions of their ancestors.",
+      "Brave" : "You have advantage on saving throws against being frightened.",
+      "Climbing" : "You also have a climbing speed of 30 feet as long as you are not encumbered or wearing heavy armor.",
+      "Kor Climbing" : "You have proficiency in the Athletics and Acrobatics skills.",
+      "Languages" : "You can speak, read, and write Common, and communicate in the silent speech of the Kor.",
+      "Lucky" : "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+      "Size" : "Kor average nearly 6 feet tall, but are much lighter and more slender than humans. Your size is Medium."
+    },
+    "proficiencies" : {
+      "Acrobatics" : true,
+      "Athletics" : true
+    },
+    "abilities" : {
+      "Dex" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 10" ]
+  },
+  "Kuo-Toa (DMG)" : {
+    "name" : "Kuo-Toa (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Amphibious" : "You can breathe air and water.",
+      "Languages" : "You can speak, read, and write Undercommon.",
+      "Otherworldly Perception" : "You can sense the presence of any creature within 30 feet of you that is invisible or on the Ethereal Plane. You can pinpoint such a creature that is moving.",
+      "Slippery" : "You have advantage on ability checks and saving throws made to escape a grapple.",
+      "Sunlight Sensitivity" : "While in sunlight, you have disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+      "Superior Darkvision" : "You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Leonin" : {
+    "name" : "Leonin",
+    "size" : "Medium",
+    "speed" : "35",
+    "traits" : {
+      "Age" : "Leonin mature and age at about the same rate as humans.",
+      "Alignment" : "Leonin tend toward good alignments. Leonin who are focused on the pride lean toward lawful good.",
+      "Claws" : "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Daunting Roar" : "As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest.",
+      "Hunter's Instincts" : "You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival.",
+      "Languages" : "You can speak, read, and write Common and Leonin.",
+      "Size" : "Leonin are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Str" : 1
+    },
+    "sources" : [ "Mythic Odysseys of Theros p. 20" ]
+  },
+  "Lizardfolk (DMG)" : {
+    "name" : "Lizardfolk (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Hold Breath" : "You can hold your breath for up to 15 minutes at a time.",
+      "Languages" : "You can speak, read, and write Draconic.",
+      "Natural Armor" : "Your scales function as natural armor, granting you a +3 bonus to Armor Class."
+    },
+    "abilities" : {
+      "Int" : -2,
+      "Str" : 2
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Locathah" : {
+    "name" : "Locathah",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Locathah mature to adulthood by the age of 10 but have been known to live up to 80 years.",
+      "Alignment" : "Most locathah are true neutral or have some aspect of neutrality in their alignment. They tend toward good, coming from a culture where compassion for the downtrodden is a commonality.",
+      "Language" : "You can speak, read, and write Aquan and Common.",
+      "Leviathan Will" : "You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep.",
+      "Limited Amphibiousness" : "You can breathe air and water, but you need to be submerged at least once every 4 hours to avoid suffocating.",
+      "Natural Armor" : "You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+      "Observant & Athletic" : "You have proficiency in the Athletics and Perception skills.",
+      "Size" : "Locathah stand between 5 and 6 feet tall and average about 150 pounds. Your size is Medium."
+    },
+    "proficiencies" : {
+      "Athletics" : true,
+      "Perception" : true
+    },
+    "abilities" : {
+      "Dex" : 1,
+      "Str" : 2
+    },
+    "sources" : [ "Locathah Rising p. 24" ]
+  },
+  "Merfolk (DMG)" : {
+    "name" : "Merfolk (DMG)",
+    "size" : "Medium",
+    "speed" : "10",
+    "traits" : {
+      "Amphibious" : "You can breathe air and water.",
+      "Languages" : "You can speak, read, and write Common and Aquan."
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Merfolk (Ixalan) (Blue)" : {
+    "name" : "Merfolk (Ixalan) (Blue)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Intelligence",
+    "traits" : {
+      "Age" : "Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.",
+      "Alignment" : "Most merfolk are neutral, living in close harmony with nature.",
+      "Amphibious" : "You can breathe air and water.",
+      "Cantrip" : "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
+      "Languages" : "You can speak, read, and write Common (if it exists in your campaign), Merfolk, and one additional language of your choice.",
+      "Lore of the Waters" : "You gain proficiency in the History and Nature skills.",
+      "Size" : "Merfolk are significantly taller than most humans, standing between seven and eight feet tall and averaging about 300 pounds. Your size is Medium.",
+      "Swimming" : "You have a swimming speed of 30 feet."
+    },
+    "proficiencies" : {
+      "History" : true,
+      "Nature" : true
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Int" : 2
+    },
+    "sources" : [ "Plane Shift: Ixalan p. 12" ]
+  },
+  "Merfolk (Ixalan) (Green)" : {
+    "name" : "Merfolk (Ixalan) (Green)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Wisdom",
+    "traits" : {
+      "Age" : "Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.",
+      "Alignment" : "Most merfolk are neutral, living in close harmony with nature.",
+      "Amphibious" : "You can breathe air and water.",
+      "Cantrip" : "You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.",
+      "Languages" : "You can speak, read, and write Common (if it exists in your campaign), Merfolk, and one additional language of your choice.",
+      "Mask of the Wild" : "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+      "Size" : "Merfolk are significantly taller than most humans, standing between seven and eight feet tall and averaging about 300 pounds. Your size is Medium.",
+      "Swimming" : "You have a swimming speed of 30 feet."
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Wis" : 2
+    },
+    "sources" : [ "Plane Shift: Ixalan p. 12" ]
+  },
+  "Merfolk (Zendikar) (Cosi Creed)" : {
+    "name" : "Merfolk (Zendikar) (Cosi Creed)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Charisma",
+    "traits" : {
+      "Age" : "Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.",
+      "Alignment" : "Most merfolk are neutral, though merfolk of the Emeria and Cosi creeds have chaotic leanings.",
+      "Amphibious" : "You can breathe air and water.",
+      "Cantrip" : "You know one cantrip of your choice from the bard spell list. Charisma is your spellcasting ability for it.",
+      "Creed of the Trickster" : "You have proficiency in the Sleight of Hand and Stealth skills.",
+      "Languages" : "You can speak, read, and write Common, Merfolk, and one extra language of your choice.",
+      "Size" : "Merfolk are about the same size and build as humans. Your size is Medium.",
+      "Swimming" : "You have a swimming speed of 30 feet."
+    },
+    "proficiencies" : {
+      "Sleight Of Hand" : true,
+      "Stealth" : true
+    },
+    "abilities" : {
+      "Cha" : 2,
+      "Int" : 1
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 13" ]
+  },
+  "Merfolk (Zendikar) (Emeria Creed)" : {
+    "name" : "Merfolk (Zendikar) (Emeria Creed)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Wisdom",
+    "traits" : {
+      "Age" : "Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.",
+      "Alignment" : "Most merfolk are neutral, though merfolk of the Emeria and Cosi creeds have chaotic leanings.",
+      "Amphibious" : "You can breathe air and water.",
+      "Cantrip" : "You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.",
+      "Languages" : "You can speak, read, and write Common, Merfolk, and one extra language of your choice.",
+      "Size" : "Merfolk are about the same size and build as humans. Your size is Medium.",
+      "Swimming" : "You have a swimming speed of 30 feet.",
+      "Wind Creed Manipulation" : "You have proficiency in the Deception and Persuasion skills."
+    },
+    "proficiencies" : {
+      "Deception" : true,
+      "Persuasion" : true
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Wis" : 2
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 13" ]
+  },
+  "Merfolk (Zendikar) (Ula Creed)" : {
+    "name" : "Merfolk (Zendikar) (Ula Creed)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Intelligence",
+    "traits" : {
+      "Age" : "Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.",
+      "Alignment" : "Most merfolk are neutral, though merfolk of the Emeria and Cosi creeds have chaotic leanings.",
+      "Amphibious" : "You can breathe air and water.",
+      "Cantrip" : "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
+      "Languages" : "You can speak, read, and write Common, Merfolk, and one extra language of your choice.",
+      "Size" : "Merfolk are about the same size and build as humans. Your size is Medium.",
+      "Swimming" : "You have a swimming speed of 30 feet.",
+      "Water Creed Navigation" : "You have proficiency with navigator's tools and in the Survival skill."
+    },
+    "proficiencies" : {
+      "Survival" : true
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Int" : 2
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 13" ]
+  },
+  "Minotaur (Amonkhet)" : {
+    "name" : "Minotaur (Amonkhet)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Minotaurs develop more slowly than humans, reaching full maturity around the age of 20. They typically become acolytes at around 8 or 9 years old, making them among the older members of their crops. Once they reach maturity, though, minotaurs age quickly, rushing headlong through the trials (as they do all aspects of life) to complete them before they pass their peak. A minotaur allowed to die of old age would rarely live beyond 40.",
+      "Alignment" : "Most minotaurs lean toward chaotic alignments, and they have a slight inclination toward evil.",
+      "Languages" : "You can speak, read, and write Common and Minotaur.",
+      "Menacing" : "You gain proficiency in the Intimidation skill.",
+      "Natural Weapon" : "You can use your horns as a natural weapon to make unarmed strikes. If you hit with your horns, you deal bludgeoning damage equal to 1d6 + your Strength modifier.",
+      "Relentless Endurance" : "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+      "Savage Attacks" : "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+      "Size" : "Minotaurs average over 6 feet in height, and they have strong, stocky builds. Your size is Medium."
+    },
+    "proficiencies" : {
+      "Intimidation" : true
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Str" : 2
+    },
+    "sources" : [ "Plane Shift: Amonkhet p. 19" ]
+  },
+  "Minotaur (Theros)" : {
+    "name" : "Minotaur (Theros)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Minotaurs mature and age at about the same rate as humans.",
+      "Alignment" : "Minotaurs who leave the walls of Skophos have the opportunity to be free of its culture and pursue chaotic alignments, while those who remain within the polis and its tyrannical regime tend toward lawful alignments.",
+      "Goring Rush" : "Immediately after you use the Dash action on your turn and move at least 20 feet, you can make one melee attack with your horns as a bonus action.",
+      "Hammering Horns" : "Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can use a bonus action to attempt to shove that target with your horns. The target must be no more than one size larger than you and within 5 feet of you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you.",
+      "Horns" : "Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+      "Imposing Presence" : "You have proficiency in one of the following skills of your choice: Intimidation or Persuasion.",
+      "Languages" : "You can speak, read, and write Common and Minotaur.",
+      "Size" : "Minotaurs average over 6 feet in height, and they have stocky builds. Your size is Medium."
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Str" : 2
+    },
+    "description" : "These traits are also suitable for minotaurs in other D&D worlds where these people have avoided the demonic influence of Baphomet. Source: Mythic Odysseys of Theros p. 22"
+  },
+  "Naga" : {
+    "name" : "Naga",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Like humans, naga reach adulthood in their late teens. They show no signs of aging beyond that point except for growing larger, so in theory, a naga could live well over a century.",
+      "Alignment" : "Most naga are either neutral or neutral evil in alignment.",
+      "Languages" : "You can speak, read, and write Common and Naga.",
+      "Natural Weapons" : "Your fanged maw and constricting serpentine body are natural weapons, which you can use to make unarmed strikes. If you hit with your bite, you deal piercing damage equal to 1d4 + your Strength modifier, and your target must make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target takes 1d4 poison damage. If you hit with your constrict attack, you deal bludgeoning damage equal to 1d6 + your Strength modifier, and the target is grappled (escape DC 8 + your proficiency bonus + your Strength modifier). Until this grapple ends, the target is restrained, and you can't constrict another target.",
+      "Poison Affinity" : "You gain proficiency with the poisoner's kit.",
+      "Poison Immunity" : "You are immune to poison damage and can't be poisoned.",
+      "Size" : "Naga stand about 5 feet tall when upright, but the total length of their bodies, head to tail, ranges from 10 to as much as 20 feet. Your size is Medium.",
+      "Speed Burst" : "By lowering your body to the ground and propelling yourself with your arms, you can move more quickly for a time. As a bonus action on your turn, if you have both hands free, you can increase your walking speed by 5 feet until the end of your turn."
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Int" : 1
+    },
+    "sources" : [ "Plane Shift: Amonkhet p. 21" ]
+  },
+  "Orc" : {
+    "name" : "Orc",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Orcs reach adulthood at age 12 and live up to 50 years.",
+      "Aggressive" : "As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.",
+      "Alignment" : "The orcs of Eberron are a passionate people, given to powerful emotion and deep faith. They are generally chaotic, but can be any alignment.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common and Orc.",
+      "Powerful Build" : "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+      "Primal Intuition" : "You have proficiency in two of the following skills of your choice: Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, and Survival.",
+      "Size" : "Your size is Medium."
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Str" : 2
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 31" ]
+  },
+  "Orc (DMG)" : {
+    "name" : "Orc (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Aggressive" : "As a bonus action, you can move up to your speed toward a hostile creature that you can see.",
+      "Darkvision" : "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common and Orc (DMG)."
+    },
+    "abilities" : {
+      "Int" : -2,
+      "Str" : 2
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Orc (Ixalan)" : {
+    "name" : "Orc (Ixalan)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.",
+      "Alignment" : "Most orcs lean toward chaotic alignments, and many serve on pirate ships that encourage an inclination toward evil.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common (if it exists in your campaign) and Orc.",
+      "Menacing" : "You gain proficiency in the Intimidation skill.",
+      "Relentless Endurance" : "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+      "Savage Attacks" : "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+      "Size" : "Orcs average over 6 feet in height, and they have strong, stocky builds. Your size is Medium."
+    },
+    "proficiencies" : {
+      "Intimidation" : true
+    },
+    "abilities" : {
+      "Con" : 1,
+      "Str" : 2
+    },
+    "sources" : [ "Plane Shift: Ixalan p. 15" ]
+  },
+  "Satyr" : {
+    "name" : "Satyr",
+    "size" : "Medium",
+    "speed" : "35",
+    "traits" : {
+      "Age" : "Satyrs mature and age at about the same rate as humans.",
+      "Alignment" : "Satyrs delight in living a life free of the mantle of law. They gravitate toward being good, but some have devious streaks and enjoy causing dismay.",
+      "Fey" : "Your creature type is fey, rather than humanoid.",
+      "Languages" : "You can speak, read, and write Common and Sylvan.",
+      "Magic Resistance" : "You have advantage on saving throws against spells and other magical effects.",
+      "Mirthful Leaps" : "Whenever you make a long or high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.",
+      "Ram" : "You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier.",
+      "Reveler" : "You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.",
+      "Size" : "Satyrs range from just under 5 feet to about 6 feet in height, with generally slender builds. Your size is Medium."
+    },
+    "proficiencies" : {
+      "Performance" : true,
+      "Persuasion" : true
+    },
+    "abilities" : {
+      "Cha" : 2,
+      "Dex" : 1
+    },
+    "sources" : [ "Mythic Odysseys of Theros p. 24" ]
+  },
+  "Shifter (Beasthide)" : {
+    "name" : "Shifter (Beasthide)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.",
+      "Alignment" : "Shifters tend toward neutrality, being more focused on survival than concepts of good and evil. A love of personal freedom can drive shifters toward chaotic alignments.",
+      "Darkvision" : "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common.",
+      "Natural Athlete" : "You have proficiency in the Athletics skill.",
+      "Shifting" : "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below. Once you shift, you can't do so again until you finish a short or long rest.",
+      "Shifting Feature" : "Whenever you shift, you gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class.",
+      "Size" : "Your size is Medium.",
+      "Speed" : "Your base walking speed is 30 feet."
+    },
+    "proficiencies" : {
+      "Athletics" : true
+    },
+    "abilities" : {
+      "Con" : 2,
+      "Str" : 1
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 34", "Wayfinder's Guide to Eberron p. 64" ]
+  },
+  "Shifter (Longtooth)" : {
+    "name" : "Shifter (Longtooth)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.",
+      "Alignment" : "Shifters tend toward neutrality, being more focused on survival than concepts of good and evil. A love of personal freedom can drive shifters toward chaotic alignments.",
+      "Darkvision" : "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Fierce" : "You have proficiency in the Intimidation skill.",
+      "Languages" : "You can speak, read, and write Common.",
+      "Shifting" : "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below. Once you shift, you can't do so again until you finish a short or long rest.",
+      "Shifting Feature" : "While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+      "Size" : "Your size is Medium.",
+      "Speed" : "Your base walking speed is 30 feet."
+    },
+    "proficiencies" : {
+      "Intimidation" : true
+    },
+    "abilities" : {
+      "Dex" : 1,
+      "Str" : 2
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 34", "Wayfinder's Guide to Eberron p. 64" ]
+  },
+  "Shifter (Swiftstride)" : {
+    "name" : "Shifter (Swiftstride)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.",
+      "Alignment" : "Shifters tend toward neutrality, being more focused on survival than concepts of good and evil. A love of personal freedom can drive shifters toward chaotic alignments.",
+      "Darkvision" : "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Graceful" : "You have proficiency in the Acrobatics skill.",
+      "Languages" : "You can speak, read, and write Common.",
+      "Shifting" : "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below. Once you shift, you can't do so again until you finish a short or long rest.",
+      "Shifting Feature" : "While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks.",
+      "Size" : "Your size is Medium.",
+      "Speed" : "Your base walking speed is 30 feet."
+    },
+    "proficiencies" : {
+      "Acrobatics" : true
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Dex" : 2
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 34", "Wayfinder's Guide to Eberron p. 64" ]
+  },
+  "Shifter (Wildhunt)" : {
+    "name" : "Shifter (Wildhunt)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.",
+      "Alignment" : "Shifters tend toward neutrality, being more focused on survival than concepts of good and evil. A love of personal freedom can drive shifters toward chaotic alignments.",
+      "Darkvision" : "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common.",
+      "Natural Tracker" : "You have proficiency in the Survival skill.",
+      "Shifting" : "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below. Once you shift, you can't do so again until you finish a short or long rest.",
+      "Shifting Feature" : "While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you, unless you're incapacitated.",
+      "Size" : "Your size is Medium.",
+      "Speed" : "Your base walking speed is 30 feet."
+    },
+    "proficiencies" : {
+      "Survival" : true
+    },
+    "abilities" : {
+      "Dex" : 1,
+      "Wis" : 2
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 34", "Wayfinder's Guide to Eberron p. 64" ]
+  },
+  "Siren" : {
+    "name" : "Siren",
+    "size" : "Medium",
+    "speed" : "25",
+    "traits" : {
+      "Alignment" : "Most sirens lean toward chaotic alignment, cherishing the freedom and independence that comes from joining a pirate crew.",
+      "Flight" : "You have a flying speed of 30 feet. You can't use your flying speed while you wear medium or heavy armor. (If your campaign uses the variant rule for encumbrance, you can't use your flying speed if you are encumbered.)",
+      "Languages" : "You can speak, read, and write Common (if it exists in your campaign) and Siren.",
+      "Siren's Song" : "You know the friends cantrip and can cast it without material components.",
+      "Size" : "Sirens stand about 5 to 6 feet tall, but their bodies are slender and their bones partially hollow to facilitate their flight. Your size is Medium."
+    },
+    "abilities" : {
+      "Cha" : 2
+    },
+    "sources" : [ "Plane Shift: Ixalan p. 17" ]
+  },
+  "Skeleton (DMG)" : {
+    "name" : "Skeleton (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Brittle Bones" : "You are vulnerable to bludgeoning damage.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can't speak, but you can understand the languages you knew in life.",
+      "Undead Nature" : "You are immune to poison damage and exhaustion, and you can't be poisoned. You don't require air, food, drink, or sleep."
+    },
+    "abilities" : {
+      "Cha" : -4,
+      "Dex" : 2,
+      "Int" : -4
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Tiefling" : {
+    "name" : "Tiefling",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Charisma",
+    "traits" : {
+      "Age" : "Tieflings mature at the same rate as humans but live a few years longer.",
+      "Alignment" : "Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.",
+      "Darkvision" : "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Hellish Resistance" : "You have resistance to fire damage.",
+      "Infernal Legacy" : "You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the darkness spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.",
+      "Languages" : "You can speak, read, and write Common and Infernal.",
+      "Size" : "Tieflings are about the same size and build as humans. Your size is Medium."
+    },
+    "abilities" : {
+      "Cha" : 2,
+      "Int" : 1
+    },
+    "sources" : [ "Player's Handbook p. 42" ]
+  },
+  "Tortle" : {
+    "name" : "Tortle",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Young tortles crawl for a few weeks after birth before learning to walk on two legs. They reach adulthood by the age of 15 and live an average of 50 years.",
+      "Alignment" : "Tortles tend to lead orderly, ritualistic lives. They develop customs and routines, becoming more set in their ways as they age. Most are lawful good. A few can be selfish and greedy, tending more toward evil, but it's unusual for a tortle to shuck off order in favor of chaos.",
+      "Claws" : "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of bludgeoning damage normal for an unarmed strike.",
+      "Hold Breath" : "You can hold your breath for up to 1 hour at a time. Tortles aren't natural swimmers, but they can remain underwater for some time before needing to come up for air.",
+      "Languages" : "You can speak, read, and write Aquan and Common.",
+      "Natural Armor" : "Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.",
+      "Shell Defense" : "You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.",
+      "Size" : "Tortle adults stand 5 to 6 feet tall and average 450 pounds. Their shells account for roughly one-third of their weight. Your size is Medium",
+      "Survival Instinct" : "You gain proficiency in the Survival skill. Tortles have finely honed survival instincts."
+    },
+    "proficiencies" : {
+      "Survival" : true
+    },
+    "abilities" : {
+      "Str" : 2,
+      "Wis" : 1
+    },
+    "description" : "The Tortle Package is considered part of Xanathar's Guide to Everything for Adventurers League character creation. Source: The Tortle Package p. 3, Explorer's Guide to Wildemount p. 181"
+  },
+  "Triton (Theros)" : {
+    "name" : "Triton (Theros)",
+    "size" : "Medium",
+    "speed" : "30",
+    "spellAbility" : "Charisma",
+    "traits" : {
+      "Age" : "Tritons reach maturity around age 15 and can live up to 200 years.",
+      "Alignment" : "Tritons tend toward neutrality. Their culture encourages them to be mindful of life's currents, knowing when to harness fate's tides and when to flow along with them.",
+      "Amphibious" : "You can breathe air and water.",
+      "Control Air and Water" : "A child of the sea, you can call on the magic of elemental air and water. You can cast fog cloud with this trait. Starting at 3rd level, you can cast gust of wind with it, and starting at 5th level, you can also cast wall of water with it. Once you cast a spell with this trait, you can't cast that spell with it again until you finish a long rest. Charisma is your spellcasting ability for these spells.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Emissary of the Sea" : "Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return.",
+      "Guardians of the Depths" : "Adapted to even the most extreme ocean depths, you have resistance to cold damage.",
+      "Languages" : "You can speak, read, and write Common and Primordial.",
+      "Size" : "Tritons are slightly shorter than humans, averaging about 5 feet tall. Your size is Medium.",
+      "Swim Speed" : "You have a swimming speed of 30 feet."
+    },
+    "abilities" : {
+      "Cha" : 1,
+      "Con" : 1,
+      "Str" : 1
+    },
+    "sources" : [ "Mythic Odysseys of Theros p. 26" ]
+  },
+  "Troglodyte (DMG)" : {
+    "name" : "Troglodyte (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Chameleon Skin" : "You have advantage on Dexterity (Stealth) checks made to hide.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Troglodyte (DMG).",
+      "Natural Armor" : "Your thick hide grants you a +1 bonus to Armor Class.",
+      "Stench" : "Any creature other than a Troglodyte (DMG) that starts its turn within 5 ft. of you must succeed on a DC 12 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all Troglodyte (DMG)s for 1 hour.",
+      "Sunlight Sensitivity" : "While in sunlight, you have disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    "abilities" : {
+      "Cha" : -4,
+      "Con" : 2,
+      "Int" : -4,
+      "Str" : 2
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  },
+  "Vampire (Ixalan)" : {
+    "name" : "Vampire (Ixalan)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Vampires don't mature and age in the same way that other races do.",
+      "Alignment" : "Vampires might not have an innate tendency toward evil, but many of them end up there. Evil or not, their strict hierarchies incline them toward a lawful alignment.",
+      "Bloodthirst" : "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces it's hit point maximum to 0.",
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Feast of Blood" : "When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute.",
+      "Languages" : "You can speak, read, and write Common (if it exists in your campaign) and Vampire.",
+      "Size" : "Vampires are the same size and build as humans. Your size is Medium.",
+      "Vampiric Resistance" : "You have resistance to necrotic damage."
+    },
+    "abilities" : {
+      "Cha" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Plane Shift: Ixalan p. 14" ]
+  },
+  "Vampire (Zendikar)" : {
+    "name" : "Vampire (Zendikar)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Vampires don't mature and age in the same way that other races do. Every living vampire is either a bloodchief, infected by Ulamog's influence in the distant reaches of history, or was spawned by a bloodchief from a living human. Most vampires are thus very old, but few have any memory of their earliest years.",
+      "Alignment" : "Vampires have no innate tendency toward evil, but consuming the life energy of other creatures often pushes them to that end. Regardless of their moral bent, the strict hierarchies of their bloodchiefs inclines them toward a lawful alignment.",
+      "Blood Thirst" : "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid killed in this way becomes a zombie.",
+      "Darkvision" : "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can speak, read, and write Common and Vampire.",
+      "Size" : "Vampires are about the same size and build as humans. Your size is Medium.",
+      "Vampiric Resistance" : "You have resistance to necrotic damage."
+    },
+    "abilities" : {
+      "Cha" : 2,
+      "Int" : 1
+    },
+    "sources" : [ "Plane Shift: Zendikar p. 14" ]
+  },
+  "Vedalken (Kaladesh)" : {
+    "name" : "Vedalken (Kaladesh)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Aether Lore" : "Whenever you make an Intelligence (History) check related to magic items or aether-powered technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.",
+      "Age" : "Vedalken (Kaladesh) mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
+      "Alignment" : "Vedalken (Kaladesh) are most often lawful and rarely evil.",
+      "Languages" : "You can speak, read, and write Common and Vedalken (Kaladesh). The Vedalken (Kaladesh) language is renowned for its technical treatises and its catalogs of knowledge about the natural world and the aether that pervades it.",
+      "Size" : "Vedalken (Kaladesh) are taller than humans but more slender. They average 6 to 6½ feet tall, but usually weigh less than 200 pounds. Your size is Medium.",
+      "Vedalken Cunning" : "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+    },
+    "abilities" : {
+      "Int" : 2,
+      "Wis" : 1
+    },
+    "sources" : [ "Plane Shift: Kaladesh p. 23" ]
+  },
+  "Verdan" : {
+    "name" : "Verdan",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "Verdan reach adulthood at around the age of 24, and it is thought that they might live to nearly 200 years old. However, because no verdan has died of old age since the race's initial creation, their upper age limits remain subject to speculation.",
+      "Alignment" : "Verdan are generally good, although their absence of racial identity and shared history can sometimes see individual verdan become untethered from any moral or ethical framework.",
+      "Black Blood Healing" : "The black blood that is a sign of your people's connection to That-Which-Endures boosts your natural healing. When you roll a 1 or 2 on any Hit Die you spend at the end of a short rest, you can reroll the die and must use the new roll.",
+      "Language" : "You speak, read, and write Common, Goblin, and one additional language of your choice. This language typically has some connection to one of the areas or cultures that has been part of your life.",
+      "Limited Telepathy" : "You can telepathically speak to any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathy, but it must be able to understand at least one language. This process of communication is slow and limited, allowing you to transmit and receive only simple ideas and straightforward concepts.",
+      "Persuasive" : "Your people's lack of history makes you trustworthy and humble. You have proficiency in the Persuasion skill.",
+      "Size" : "Verdan start out similar in size to the goblins they were created from, ranging from 3 to 4 feet in height. But at some point after reaching maturity, each verdan undergoes a sudden growth spurt of 2 feet or more. At 1st level, you are a Small creature. When you reach 5th level, you become a Medium creature.",
+      "Telepathic Insight" : "Your mind's connection to the world around you strengthens your will. You have advantage on all Wisdom and Charisma saving throws."
+    },
+    "proficiencies" : {
+      "Persuasion" : true
+    },
+    "abilities" : {
+      "Cha" : 2,
+      "Con" : 1
+    },
+    "sources" : [ "Acquisitions Incorporated p. 72" ]
+  },
+  "Warforged" : {
+    "name" : "Warforged",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Age" : "A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects.",
+      "Alignment" : "Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served.",
+      "Constructed Resilience" : "You were created to have remarkable fortitude, represented by the following benefits: * You have advantage on saving throws against being poisoned, and you have resistance to poison damage. * You don't need to eat, drink, or breathe. * You are immune to disease. * You don't need to sleep, and magic can't put you to sleep.",
+      "Integrated Protection" : "Your body has built-in defensive layers, which can be enhanced with armor: * You gain a +1 bonus to Armor Class. * You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way. * While you live, the armor incorporated into your body can't be removed against your will.",
+      "Languages" : "You can speak, read, and write Common and one other language of your choice.",
+      "Sentry's Rest" : "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal.",
+      "Size" : "Your size is Medium.",
+      "Specialized Design" : "You gain one skill proficiency and one tool proficiency of your choice."
+    },
+    "abilities" : {
+      "Con" : 2
+    },
+    "sources" : [ "Eberron: Rising from the Last War p. 35", "Wayfinder's Guide to Eberron p. 67" ]
+  },
+  "Zombie (DMG)" : {
+    "name" : "Zombie (DMG)",
+    "size" : "Medium",
+    "speed" : "30",
+    "traits" : {
+      "Darkvision" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "Languages" : "You can't speak, but you can understand the languages you knew in life.",
+      "Undead Fortitude" : "If damage reduces you to 0 hit points, you must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, you drop to 1 hit point instead.",
+      "Undead Nature" : "You are immune to poison damage and exhaustion, and you can't be poisoned. You don't require air, food, drink, or sleep."
+    },
+    "abilities" : {
+      "Cha" : -4,
+      "Con" : 2,
+      "Int" : -6,
+      "Str" : 1,
+      "Wis" : -4
+    },
+    "sources" : [ "Dungeon Master's Guide p. 282" ]
+  }
+}
