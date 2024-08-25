@@ -1,6 +1,9 @@
 (ns tool-box.outfitter-datasets 
   (:require [clj-http.client :as client]
-            [clojure.string :as str]))
+            [clojure.string :as str]
+            [clojure.xml :as xml]
+            [clojure.zip :as zip]) 
+  (:import [java.io ByteArrayInputStream]))
 
 (def body-types [:fit :hulk :superman :woman])
 
@@ -62,3 +65,18 @@
 
 (defn get-dataset [body-type-index]
   (client/get (format path (str/join "." (cons (name (nth body-types body-type-index)) version))) {:accept :json}))
+
+(defn xml->hiccup [node]
+  (if (string? node)
+    node
+    (let [{ tag :tag attrs :attrs content :content} node
+          header (if (nil? attrs) [tag] [tag attrs])]
+      (if (nil? content)
+        header
+        (concat header (map xml->hiccup content))))))
+
+(defn parse-svg [svg-text]
+  (first
+   (zip/xml-zip
+    (xml/parse
+     (ByteArrayInputStream. (.getBytes svg-text))))))

@@ -590,7 +590,7 @@
 (defn build-error-handler-factory []
   (let [error-atom (atom [])]
     (reify ErrorHandlerFactory
-      (build-error-handler [_ ^File file]
+      (build-error-handler [_ file]
         (reify ErrorHandler
           (handle-error [_ category key error]
             (swap! error-atom conj {:category category :key key :error error :file (.getAbsolutePath file)}))))
